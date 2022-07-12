@@ -65,7 +65,7 @@ def find_password(files):
 
         for str in str_list:
             if string1 in str:
-                return str
+                return str.split("password: ")[1]
 
 
 def main():
